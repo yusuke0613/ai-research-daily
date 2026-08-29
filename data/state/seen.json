@@ -3,6 +3,10 @@
     { "url": "https://llm-stats.com/ai-news#openai-jalapeno-chip", "date": "2026-08-28" },
     { "url": "https://www.anthropic.com/news#model-hardware-standard", "date": "2026-08-28" },
     { "url": "https://llm-stats.com/ai-news#gemini-3-5-transcribe", "date": "2026-08-28" },
-    { "url": "https://www.anthropic.com/news#claude-for-science-seats", "date": "2026-08-28" }
+    { "url": "https://www.anthropic.com/news#claude-for-science-seats", "date": "2026-08-28" },
+    { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.251", "date": "2026-08-29" },
+    { "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/", "date": "2026-08-29" },
+    { "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol", "date": "2026-08-29" },
+    { "url": "https://deepseek.com/harness/en/", "date": "2026-08-29" }
   ]
 }

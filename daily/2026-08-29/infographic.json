@@ -1,0 +1,11 @@
+{
+  "date": "2026-08-29",
+  "title": "Claude、企業導入が加速",
+  "top3": [
+    { "headline": "Claude Code修正", "oneliner": "権限バイパス脆弱性を修正、2.1.251へ更新推奨" },
+    { "headline": "Salesforceと提携", "oneliner": "ClaudeがAgentforce/Slackの既定モデルに" },
+    { "headline": "GPT-5.6 Sol値下げ", "oneliner": "API価格を最大33%引き下げ、11月まで適用" }
+  ],
+  "basicTopic": { "title": "RAGの基本: 検索して渡す仕組み", "keyPoint": "検索→注入→生成の3ステップでLLMに社内文書の知識を持たせる" },
+  "theme": "indigo"
+}
