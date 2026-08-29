@@ -1,4 +1,4 @@
-# 2026-08-29 AI Research Daily
+# 2026-08-28 AI Research Daily
 
 > 創刊号(セットアップ時に手動生成したサンプル)。明日以降はRoutineが毎朝自動生成します。
 

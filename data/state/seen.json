@@ -1,8 +1,8 @@
 {
   "urls": [
-    { "url": "https://llm-stats.com/ai-news#openai-jalapeno-chip", "date": "2026-08-29" },
-    { "url": "https://www.anthropic.com/news#model-hardware-standard", "date": "2026-08-29" },
-    { "url": "https://llm-stats.com/ai-news#gemini-3-5-transcribe", "date": "2026-08-29" },
-    { "url": "https://www.anthropic.com/news#claude-for-science-seats", "date": "2026-08-29" }
+    { "url": "https://llm-stats.com/ai-news#openai-jalapeno-chip", "date": "2026-08-28" },
+    { "url": "https://www.anthropic.com/news#model-hardware-standard", "date": "2026-08-28" },
+    { "url": "https://llm-stats.com/ai-news#gemini-3-5-transcribe", "date": "2026-08-28" },
+    { "url": "https://www.anthropic.com/news#claude-for-science-seats", "date": "2026-08-28" }
   ]
 }
