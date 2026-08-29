@@ -87,6 +87,9 @@
     <span>Claude Code Routine × GitHub Actions</span>
   </div>
 <script>
+(() => {
+  // IIFEで囲む: Playwrightのpage.setContent()は実行コンテキストを使い回すため、
+  // トップレベルconstだと2枚目以降のレンダリングで再宣言エラーになる
   const data = /*__DATA__*/ null;
   if (data) {
     if (data.theme) document.documentElement.setAttribute("data-theme", data.theme);
@@ -114,6 +117,7 @@
     document.getElementById("basic-title").textContent = data.basicTopic?.title || "";
     document.getElementById("basic-point").textContent = data.basicTopic?.keyPoint || "";
   }
+})();
 </script>
 </body>
 </html>
