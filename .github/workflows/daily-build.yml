@@ -1,0 +1,84 @@
+name: daily-build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "daily/**"
+      - "site/**"
+      - "scripts/**"
+      - "curriculum/**"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 日本語フォントをインストール(PNGの文字化け防止)
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+
+      - name: 依存関係をインストール
+        run: npm ci
+
+      - name: Playwright(Chromium)をインストール
+        run: npx playwright install --with-deps chromium
+
+      - name: 成果物を検証
+        run: node scripts/validate.mjs
+
+      - name: ダッシュボードをビルド
+        run: node site/build.mjs
+
+      - name: インフォグラフィックPNGを生成(1080×1350)
+        run: node scripts/render-infographic.mjs
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ── Phase 2: Instagram自動投稿(Meta側の準備完了後に有効化) ──
+  # 有効化手順: docs/instagram-setup.md に従いSecretsを設定し、以下のコメントを外す。
+  # instagram:
+  #   needs: deploy
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: actions/setup-node@v4
+  #       with:
+  #         node-version: 22
+  #     - name: 最新日付を特定してInstagramに投稿
+  #       env:
+  #         IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+  #         IG_USER_ID: ${{ secrets.IG_USER_ID }}
+  #       run: |
+  #         DATE=$(ls daily | sort | tail -n 1)
+  #         node scripts/post-instagram.mjs \
+  #           --image "${{ needs.deploy.outputs.page_url || 'https://USERNAME.github.io/ai-research-daily/' }}assets/infographics/${DATE}.png" \
+  #           --caption-file "daily/${DATE}/caption.md"

@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-29",
+  "title": "創刊号|今週のAI要点",
+  "top3": [
+    {
+      "headline": "OpenAI自社チップ詳細",
+      "oneliner": "Broadcomと開発の推論チップ、電力効率でNvidia超えの報告"
+    },
+    {
+      "headline": "Anthropic、MHS発表",
+      "oneliner": "AIエージェントが実験機器を安全操作する共通規格を公開"
+    },
+    {
+      "headline": "Gemini 3.5音声認識",
+      "oneliner": "Googleが新書き起こしモデルを2エンドポイント構成で公開"
+    }
+  ],
+  "basicTopic": {
+    "title": "LLMは次トークン予測装置",
+    "keyPoint": "賢い検索ではなく続きを予測する装置。この一点から幻覚もRAGの必要性も説明できる"
+  },
+  "theme": "indigo"
+}

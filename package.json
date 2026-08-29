@@ -1,0 +1,17 @@
+{
+  "name": "ai-research-daily",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "毎朝6時にAI最新情報を収集・要約し、ダッシュボードとインフォグラフィックを自動生成するパイプライン",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node site/build.mjs",
+    "render": "node scripts/render-infographic.mjs",
+    "all": "npm run validate && npm run build && npm run render"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "playwright": "^1.49.0"
+  }
+}

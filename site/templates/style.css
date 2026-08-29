@@ -1,0 +1,87 @@
+:root {
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --text: #1c1917;
+  --text-dim: #57534e;
+  --accent: #4f46e5;
+  --accent-soft: #eef2ff;
+  --border: #e7e5e4;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131316;
+    --surface: #1c1c21;
+    --text: #ececee;
+    --text-dim: #a1a1aa;
+    --accent: #818cf8;
+    --accent-soft: rgba(129, 140, 248, 0.12);
+    --border: #2e2e35;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+  line-height: 1.85;
+  font-size: 16px;
+}
+.container { max-width: 780px; margin: 0 auto; padding: 0 20px; }
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  position: sticky; top: 0; z-index: 10;
+}
+.header-inner { display: flex; justify-content: space-between; align-items: center; height: 60px; }
+.brand { font-weight: 800; font-size: 18px; letter-spacing: 0.02em; text-decoration: none; color: var(--text); }
+.brand span { color: var(--accent); }
+nav a {
+  color: var(--text-dim); text-decoration: none; margin-left: 22px; font-size: 14px; font-weight: 600;
+}
+nav a:hover { color: var(--accent); }
+main { padding: 40px 20px 64px; }
+h1 { font-size: 26px; line-height: 1.4; margin: 0 0 8px; }
+h2 {
+  font-size: 20px; margin: 44px 0 12px; padding-left: 12px;
+  border-left: 4px solid var(--accent); line-height: 1.4;
+}
+h3 { font-size: 17px; margin: 26px 0 6px; }
+a { color: var(--accent); }
+ul { padding-left: 1.3em; }
+li { margin: 4px 0; }
+strong { font-weight: 700; }
+.meta { color: var(--text-dim); font-size: 14px; margin-bottom: 28px; }
+.infographic {
+  display: block; width: 100%; max-width: 480px;
+  border-radius: 16px; border: 1px solid var(--border);
+  margin: 28px auto;
+}
+.card-list { list-style: none; padding: 0; }
+.card-list li {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 14px 18px; margin: 10px 0;
+}
+.card-list a { text-decoration: none; font-weight: 700; }
+.card-list .sub { color: var(--text-dim); font-size: 14px; margin-top: 2px; }
+.basic-entry {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 6px 22px 16px; margin: 18px 0;
+}
+.basic-entry .date-label {
+  font-size: 13px; color: var(--text-dim); font-weight: 600; margin-top: 14px;
+}
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 0 32px; color: var(--text-dim); font-size: 13px;
+}
+blockquote {
+  margin: 12px 0; padding: 8px 16px;
+  border-left: 3px solid var(--border); color: var(--text-dim);
+  background: var(--accent-soft); border-radius: 0 8px 8px 0;
+}
+code {
+  background: var(--accent-soft); border-radius: 4px; padding: 1px 5px;
+  font-size: 0.9em;
+}
