@@ -1,0 +1,11 @@
+{
+  "date": "2026-08-30",
+  "title": "Anthropic、法廷で勝訴",
+  "top3": [
+    { "headline": "Pentagon締め出し違法", "oneliner": "連邦判事が全指令の撤回を命令、Anthropic側が勝訴" },
+    { "headline": "Gemini3.6Flash正式GA", "oneliner": "3.6 Flashと3.5 Flash-Liteが同時に安定版へ移行" },
+    { "headline": "Codex TUI強化", "oneliner": "@メンションやタスク管理などターミナル機能を拡充" }
+  ],
+  "basicTopic": { "title": "AIエージェントとは何か", "keyPoint": "チャットボットと違い、ループの中で自らツールを使い自律的に動く" },
+  "theme": "teal"
+}

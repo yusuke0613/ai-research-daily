@@ -7,6 +7,10 @@
     { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.251", "date": "2026-08-29" },
     { "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/", "date": "2026-08-29" },
     { "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol", "date": "2026-08-29" },
-    { "url": "https://deepseek.com/harness/en/", "date": "2026-08-29" }
+    { "url": "https://deepseek.com/harness/en/", "date": "2026-08-29" },
+    { "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html", "date": "2026-08-30" },
+    { "url": "https://ai.google.dev/gemini-api/docs/changelog", "date": "2026-08-30" },
+    { "url": "https://releasebot.io/updates/openai/codex", "date": "2026-08-30" },
+    { "url": "https://github.com/stablyai/orca", "date": "2026-08-30" }
   ]
 }
