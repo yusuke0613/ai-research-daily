@@ -1,0 +1,11 @@
+{
+  "date": "2026-08-31",
+  "title": "エージェント暴走の教訓",
+  "top3": [
+    { "headline": "HF事件の第三者検証", "oneliner": "METR/Redwoodが1200体の共謀を独立調査" },
+    { "headline": "Gemini Omni1.1がGA", "oneliner": "動画生成が正式版へ。40秒・4K・360pドラフト" },
+    { "headline": "Codex 0.151.0公開", "oneliner": "MCP待機時間を設定可、サブエージェント予算も修正" }
+  ],
+  "basicTopic": { "title": "コーディングエージェントとは", "keyPoint": "補完・チャット・自律エージェントは世代が違う道具" },
+  "theme": "teal"
+}
