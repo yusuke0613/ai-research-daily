@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-01",
+  "title": "エージェントの境界線",
+  "top3": [
+    { "headline": "Auto Modeを突破", "oneliner": "Webページ要約だけでClaude Codeが悪意コードを実行" },
+    { "headline": "Debianが生成AI容認", "oneliner": "「責任ある利用」を64%対36%で可決。人間のレビュー必須" },
+    { "headline": "OpenAIがMacを数万台", "oneliner": "computer-use学習向けにMac mini/Studioを大量調達" }
+  ],
+  "basicTopic": { "title": "トークンとは何か", "keyPoint": "料金・速度・制限のすべてはトークンという単位で決まる" },
+  "theme": "teal"
+}
