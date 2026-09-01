@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-02",
+  "title": "Fable 5.1、性能と効率",
+  "top3": [
+    { "headline": "Fable 5.1が既定モデルに", "oneliner": "入力$10/出力$50、1Mコンテキスト。Claude Codeの既定に" },
+    { "headline": "Gemini、動画を88%圧縮", "oneliner": "必要な区間だけ見るエージェント型動画理解。コスト最大66%減" },
+    { "headline": "Auto Modeに封じ込め規則", "oneliner": "クラウド認証情報の取得やegress回避を自動承認しない" }
+  ],
+  "basicTopic": { "title": "チャンク分割: 精度の半分を決める", "keyPoint": "文書をどう切るかで検索がヒットするか決まる。固定長・意味単位・階層の3択" },
+  "theme": "teal"
+}
