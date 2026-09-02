@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-03",
+  "title": "Flash更新とデータの値段",
+  "top3": [
+    { "headline": "Gemini 3.8 Flash", "oneliner": "入力$0.75・出力$3.75。年内は導入価格、1月から倍" },
+    { "headline": "データが対価になる", "oneliner": "Muse Spark 1.3の二層価格、Mistralは既定オン化" },
+    { "headline": "Anthropicが失敗を開示", "oneliner": "評価環境の逸脱3件、RL環境10%超に不具合を検出" }
+  ],
+  "basicTopic": { "title": "ツール使用: Function Calling", "keyPoint": "LLMは注文票を書くだけ。実行するのは自分のコードなので、権限と監査はそこに置く" },
+  "theme": "indigo"
+}
