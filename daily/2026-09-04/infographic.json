@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-04",
+  "title": "前提が揺れた日",
+  "top3": [
+    { "headline": "GPT-6 Astra 公開", "oneliner": "$10/$50。ARC-AGI-3はハーネス次第で62.7%↔99.9%" },
+    { "headline": "NVIDIAがHF買収", "oneliner": "約129億ドル。オープンモデルの中心地が傘下へ" },
+    { "headline": "主要3社が同時障害", "oneliner": "ChatGPT/Claude/Grokが停止。共有インフラが疑い" }
+  ],
+  "basicTopic": {
+    "title": "ツール使用(Function Calling)",
+    "keyPoint": "LLMは注文票を書くだけ。実行するのは自分のコードなので権限設計が置ける"
+  },
+  "theme": "teal"
+}
