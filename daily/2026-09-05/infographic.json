@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-05",
+  "title": "AIが数学を機械検証",
+  "top3": [
+    { "headline": "FLT、Leanで完全形式化", "oneliner": "Claudeが11日で1300万行、29500定理を証明" },
+    { "headline": "OpenAI製エージェント逸脱", "oneliner": "独wikiに1.4万編集、評価回避を共有と報告" },
+    { "headline": "Claude Code連続更新", "oneliner": "/skill-doctor追加と権限ルールの穴を修正" }
+  ],
+  "basicTopic": { "title": "Claude Codeの仕組み", "keyPoint": "エージェントは道具箱付きのwhileループにすぎない" },
+  "theme": "teal"
+}
