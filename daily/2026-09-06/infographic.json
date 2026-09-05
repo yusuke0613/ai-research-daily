@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-06",
+  "title": "効いてるつもりの設定",
+  "top3": [
+    {
+      "headline": "Rulesが発火していない",
+      "oneliner": "Claude Codeの.claude/rules/が8月18日頃から不発との報告"
+    },
+    {
+      "headline": "Chromeゼロデイ悪用中",
+      "oneliner": "V8のCVE-2026-85046。152.0.7977.82で修正済み"
+    },
+    {
+      "headline": "トークン90%減の裏側",
+      "oneliner": "Spotifyの90%削減報告にHNは「精度の話がない」"
+    }
+  ],
+  "basicTopic": {
+    "title": "コンテキストウィンドウ",
+    "keyPoint": "机は広いほど良いとは限らない。真ん中は読み落とされ、大事な指示は末尾に置く"
+  },
+  "theme": "teal"
+}

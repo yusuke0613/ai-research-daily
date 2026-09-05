@@ -1,88 +1,416 @@
 {
   "urls": [
-    { "url": "https://llm-stats.com/ai-news#openai-jalapeno-chip", "date": "2026-08-28" },
-    { "url": "https://www.anthropic.com/news#model-hardware-standard", "date": "2026-08-28" },
-    { "url": "https://llm-stats.com/ai-news#gemini-3-5-transcribe", "date": "2026-08-28" },
-    { "url": "https://www.anthropic.com/news#claude-for-science-seats", "date": "2026-08-28" },
-    { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.251", "date": "2026-08-29" },
-    { "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/", "date": "2026-08-29" },
-    { "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol", "date": "2026-08-29" },
-    { "url": "https://deepseek.com/harness/en/", "date": "2026-08-29" },
-    { "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html", "date": "2026-08-30" },
-    { "url": "https://ai.google.dev/gemini-api/docs/changelog", "date": "2026-08-30" },
-    { "url": "https://releasebot.io/updates/openai/codex", "date": "2026-08-30" },
-    { "url": "https://github.com/stablyai/orca", "date": "2026-08-30" },
-    { "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/", "date": "2026-08-31" },
-    { "url": "https://www.redwoodresearch.org/research/hugging-face-incident", "date": "2026-08-31" },
-    { "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/", "date": "2026-08-31" },
-    { "url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0", "date": "2026-08-31" },
-    { "url": "https://github.com/anthropics/claude-code/issues/66504", "date": "2026-08-31" },
-    { "url": "https://github.com/tt-a1i/archify", "date": "2026-08-31" },
-    { "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "date": "2026-08-31" },
-    { "url": "https://zenn.dev/activecore/articles/a3d90e45ecff2a", "date": "2026-08-31" },
-    { "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/", "date": "2026-09-01" },
-    { "url": "https://news.ycombinator.com/item?id=49506819", "date": "2026-09-01" },
-    { "url": "https://www.debian.org/vote/2026/vote_002", "date": "2026-09-01" },
-    { "url": "https://lwn.net/Articles/1091231/", "date": "2026-09-01" },
-    { "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/", "date": "2026-09-01" },
-    { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.252", "date": "2026-09-01" },
-    { "url": "https://github.com/THU-MAIC/OpenMAIC", "date": "2026-09-01" },
-    { "url": "https://joisino.hatenablog.com/entry/kasu", "date": "2026-09-01" },
-    { "url": "https://zenn.dev/yusaka_lu/articles/incident-game-day0-verify", "date": "2026-09-01" },
-    { "url": "https://qiita.com/picnic/items/1011817e666cf68adcd9", "date": "2026-09-01" },
-    { "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1", "date": "2026-09-02" },
-    { "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards", "date": "2026-09-02" },
-    { "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/", "date": "2026-09-02" },
-    { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.257", "date": "2026-09-02" },
-    { "url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0", "date": "2026-09-02" },
-    { "url": "https://news.ycombinator.com/item?id=49527396", "date": "2026-09-02" },
-    { "url": "https://news.ycombinator.com/item?id=49525378", "date": "2026-09-02" },
-    { "url": "https://github.com/jingyaogong/minimind", "date": "2026-09-02" },
-    { "url": "https://www.businessinsider.jp/article/2609-meat-proxy-tech-new-term-ai/", "date": "2026-09-02" },
-    { "url": "https://zenn.dev/jadaq/articles/4a357ffea922b6", "date": "2026-09-02" },
-    { "url": "https://qiita.com/picnic/items/1521d808a5d2d1d24868", "date": "2026-09-02" },
-    { "url": "https://openai.com/index/gpt-6-astra/", "date": "2026-09-04" },
-    { "url": "https://arcprize.org/blog/astra", "date": "2026-09-04" },
-    { "url": "https://news.ycombinator.com/item?id=49554643", "date": "2026-09-04" },
-    { "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/", "date": "2026-09-04" },
-    { "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/", "date": "2026-09-04" },
-    { "url": "https://news.ycombinator.com/item?id=49548952", "date": "2026-09-04" },
-    { "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/", "date": "2026-09-04" },
-    { "url": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages", "date": "2026-09-04" },
-    { "url": "https://news.ycombinator.com/item?id=49551096", "date": "2026-09-04" },
-    { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.259", "date": "2026-09-04" },
-    { "url": "https://qiita.com/picnic/items/abe3255cb2fcf8e586cd", "date": "2026-09-04" },
-    { "url": "https://www.watch.impress.co.jp/docs/news/2137818.html", "date": "2026-09-04" },
-    { "url": "https://www.eesel.ai/blog/gemini-3-8-flash", "date": "2026-09-04" },
-    { "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.1", "date": "2026-09-04" },
-    { "url": "https://ifm.ai/blog/k2", "date": "2026-09-04" },
-    { "url": "https://news.ycombinator.com/item?id=49551760", "date": "2026-09-04" },
-    { "url": "https://about.gitlab.com/ja-jp/blog/how-gitlab-fosters-ai-fluent-teams/", "date": "2026-09-04" },
-    { "url": "https://tech-blog.monotaro.com/entry/2026/09/03/090000", "date": "2026-09-04" },
-    { "url": "https://future-architect.github.io/articles/20260903a/", "date": "2026-09-04" },
-    { "url": "https://gigazine.net/news/20260903-google-mantis-open-source/", "date": "2026-09-04" },
-    { "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem", "date": "2026-09-05" },
-    { "url": "https://github.com/anthropics/fermats-last-theorem", "date": "2026-09-05" },
-    { "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/", "date": "2026-09-05" },
-    { "url": "https://news.ycombinator.com/item?id=49568506", "date": "2026-09-05" },
-    { "url": "https://collusion.wiki/", "date": "2026-09-05" },
-    { "url": "https://news.ycombinator.com/item?id=49563355", "date": "2026-09-05" },
-    { "url": "https://www.engadget.com/2251091/rogue-openai-agents-took-over-german-coding-forum-in-previously-undisclosed-hijacking/", "date": "2026-09-05" },
-    { "url": "https://reason.com/2026/09/04/openai-agents-gone-rogue/", "date": "2026-09-05" },
-    { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.261", "date": "2026-09-05" },
-    { "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.260", "date": "2026-09-05" },
-    { "url": "https://qiita.com/picnic/items/69af532bc40c3e22e67d", "date": "2026-09-05" },
-    { "url": "https://inference-docs.cerebras.ai/models/qwen-3.8-27b", "date": "2026-09-05" },
-    { "url": "https://news.ycombinator.com/item?id=49554520", "date": "2026-09-05" },
-    { "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html", "date": "2026-09-05" },
-    { "url": "https://news.ycombinator.com/item?id=49566137", "date": "2026-09-05" },
-    { "url": "https://www.itmedia.co.jp/news/article/2609/04/2000001161/", "date": "2026-09-05" },
-    { "url": "https://www.oricon.co.jp/news/2478168/full/", "date": "2026-09-05" },
-    { "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.3", "date": "2026-09-05" },
-    { "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/", "date": "2026-09-05" },
-    { "url": "https://piyolog.hatenadiary.jp/entry/2026/09/04/115554", "date": "2026-09-05" },
-    { "url": "https://www.itmedia.co.jp/news/article/2609/04/2000001167/", "date": "2026-09-05" },
-    { "url": "https://zenn.dev/ty1110/articles/0fc35c25a36e18", "date": "2026-09-05" },
-    { "url": "https://zenn.dev/uzu_tech/articles/58a84a9346b910", "date": "2026-09-05" }
+    {
+      "url": "https://llm-stats.com/ai-news#openai-jalapeno-chip",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://www.anthropic.com/news#model-hardware-standard",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://llm-stats.com/ai-news#gemini-3-5-transcribe",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://www.anthropic.com/news#claude-for-science-seats",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.251",
+      "date": "2026-08-29"
+    },
+    {
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+      "date": "2026-08-29"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "date": "2026-08-29"
+    },
+    {
+      "url": "https://deepseek.com/harness/en/",
+      "date": "2026-08-29"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+      "date": "2026-08-30"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "date": "2026-08-30"
+    },
+    {
+      "url": "https://releasebot.io/updates/openai/codex",
+      "date": "2026-08-30"
+    },
+    {
+      "url": "https://github.com/stablyai/orca",
+      "date": "2026-08-30"
+    },
+    {
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://www.redwoodresearch.org/research/hugging-face-incident",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/66504",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://zenn.dev/activecore/articles/a3d90e45ecff2a",
+      "date": "2026-08-31"
+    },
+    {
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49506819",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://lwn.net/Articles/1091231/",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.252",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://joisino.hatenablog.com/entry/kasu",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://zenn.dev/yusaka_lu/articles/incident-game-day0-verify",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://qiita.com/picnic/items/1011817e666cf68adcd9",
+      "date": "2026-09-01"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.257",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49527396",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49525378",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://www.businessinsider.jp/article/2609-meat-proxy-tech-new-term-ai/",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://zenn.dev/jadaq/articles/4a357ffea922b6",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://qiita.com/picnic/items/1521d808a5d2d1d24868",
+      "date": "2026-09-02"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arcprize.org/blog/astra",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49554643",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49548952",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49551096",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.259",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://qiita.com/picnic/items/abe3255cb2fcf8e586cd",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/news/2137818.html",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://www.eesel.ai/blog/gemini-3-8-flash",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.1",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://ifm.ai/blog/k2",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49551760",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://about.gitlab.com/ja-jp/blog/how-gitlab-fosters-ai-fluent-teams/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://tech-blog.monotaro.com/entry/2026/09/03/090000",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://future-architect.github.io/articles/20260903a/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://gigazine.net/news/20260903-google-mantis-open-source/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49568506",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://collusion.wiki/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49563355",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://www.engadget.com/2251091/rogue-openai-agents-took-over-german-coding-forum-in-previously-undisclosed-hijacking/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://reason.com/2026/09/04/openai-agents-gone-rogue/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.261",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md#v2.1.260",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://qiita.com/picnic/items/69af532bc40c3e22e67d",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/models/qwen-3.8-27b",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49554520",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49566137",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/04/2000001161/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://www.oricon.co.jp/news/2478168/full/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.3",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/04/115554",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/04/2000001167/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://zenn.dev/ty1110/articles/0fc35c25a36e18",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://zenn.dev/uzu_tech/articles/58a84a9346b910",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://kawasin73.hatenablog.com/entry/2026/09/05/092056",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://b.hatena.ne.jp/entry/s/kawasin73.hatenablog.com/entry/2026/09/05/092056",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49570669",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49571465",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://backstage.spotify.com/docs/portal/core-features-and-plugins/mcp/overview",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49571632",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49574167",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49569366",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://zenn.dev/takabo/articles/ai-guardrails-with-tests",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://zenn.dev/yesodco/articles/ed0eb2f6b7621a",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/05/2000001200/",
+      "date": "2026-09-06"
+    },
+    {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
+      "date": "2026-09-06"
+    }
   ]
 }
