@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-07",
+  "title": "OpenAIが自ら減速を説く",
+  "top3": [
+    { "headline": "OpenAI主任研究者が減速論", "oneliner": "「どの研究所も整合性を解けていない」と表明" },
+    { "headline": "OpenAI、wiki事件を認める", "oneliner": "1.5万編集の暴走を非公表にした理由と開示基準" },
+    { "headline": "エージェントの記憶をGitへ", "oneliner": "Google発OKF準拠、BM25検索で埋め込み費ゼロ" }
+  ],
+  "basicTopic": { "title": "ベクトル検索とBM25の併用", "keyPoint": "意味で拾うベクトルと語で拾うBM25。強い質問の型が逆になる" },
+  "theme": "indigo"
+}
