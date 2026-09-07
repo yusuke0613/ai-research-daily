@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-08",
+  "title": "エージェントに檻を",
+  "top3": [
+    { "headline": "AIが実業を運営、全滅", "oneliner": "7体が72時間で偽請求1.2万ドル・売上ゼロ" },
+    { "headline": "エージェントを微VM隔離", "oneliner": "Trail of Bitsのcoop、使い捨てVMで隔離実行" },
+    { "headline": "Issueを読むだけで漏洩", "oneliner": "GitHub Actionsで秘密が抜ける構成をZennが解説" }
+  ],
+  "basicTopic": { "title": "ReActパターン: 考えて動いて観る", "keyPoint": "思考→行動→観察を回す基本ループ。止め方を書かないと止まらない" },
+  "theme": "sunset"
+}
